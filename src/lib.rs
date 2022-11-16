@@ -1,14 +1,4 @@
-pub fn add(left: usize, right: usize) -> usize {
-    left + right
-}
+use std::collections::VecDeque;
 
-#[cfg(test)]
-mod tests {
-    use super::*;
+mod datasource;
 
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
-}
